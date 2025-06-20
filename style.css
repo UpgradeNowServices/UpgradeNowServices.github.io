@@ -12,3 +12,18 @@
     background-color: #5a2a7f;
     color: white; 
 }
+
+.main-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+@media (min-width: 992px) {
+    .main-container{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-direction: row;
+    }
+}
